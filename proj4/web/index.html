@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <a href="index.html">Home</a>
+    <a href="ServletProj4">Servlet Here</a>
+    <head>
+        <title>RECIPE CALCULATOR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>RECIPE Multiplier</h2>
+
+        <form action="ServletProj4" method="post">
+            <label for="cars">Choose a multiplier:</label>
+            <select id="multiplier" name="multiplier">
+                <option value="none" selected disabled hidden>
+                    Select an multiplier</option>
+                <option value="quarter">1/4</option>
+                <option value="half">1/2</option>
+                <option value="one" >1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+            </select>
+            <div></div>
+            <input id="button" type='submit' value="Multiply my Recipe">
+        </form>
+    </body>
+</html>
